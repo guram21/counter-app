@@ -1,12 +1,19 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+function Counter(props) {
   return (
     <div>
-      <h1>Counters</h1>
+      ID <strong>{props.id}</strong>
+      Counter name <strong>{props.name}</strong>{props.name}
+      Counter value <strong>{props.count}</strong>
+
+      <button onClick={() => props.decrement(props.id)}>-</button>
+      <button onClick={() => props.increment(props.id)}>+</button>
+      <button onClick={() => props.remove(props.id)}>Delete</button>
+
     </div>
   );
 }
 
-export default App;
+export default Counter;
