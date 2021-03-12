@@ -1722,8 +1722,8 @@ patch:
         patched: '2020-10-10T21:29:40.083Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-10-10T21:29:40.083Z'
-    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
-        patched: '2020-10-10T21:29:40.083Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2020-08-31T11:59:49.583Z'
     - snyk > snyk-go-plugin > graphlib > lodash:
         patched: '2020-10-10T21:29:40.083Z'
     - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
