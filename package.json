@@ -12,7 +12,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.2.2",
-     "@snyk/protect": "1.1280.0"
+     "@snyk/protect": "1.1290.0"
   },
   "scripts": {
     "start": "react-scripts start",
