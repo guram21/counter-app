@@ -4,15 +4,15 @@
   "private": true,
   "homepage": "https://guram21.github.io/counter-app",
   "dependencies": {
-    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.2",
     "@testing-library/user-event": "^14.5.2",
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.2.2",
-     "@snyk/protect": "1.1266.0"
+     "@snyk/protect": "1.1290.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,7 +40,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^5.0.0"
   },
   "snyk": true
 }
